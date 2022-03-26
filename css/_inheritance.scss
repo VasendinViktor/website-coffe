@@ -1,0 +1,33 @@
+@import url(_var.scss);
+
+
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+//ключ активаци
+//@extend %message-shared;
+
+%button1 {
+  text-align: center;
+  color: $color6;
+  background: $color1;
+  padding: 14px 0 15px 0;
+  max-width: 235px;
+  border-radius: 5px;
+  font-size: 20px;
+  &:hover {
+    background: $hover1;
+  }
+}
+%button2 {
+  color: $color6;
+  background: $color1;
+  padding: 14px 32px 13px 33px;
+  border-radius: 5px;
+  &:hover {
+    background: $hover1;
+  }
+}
+//https://sass-scss.ru/guide/
